@@ -1,0 +1,32 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.flex {
+	display : flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.ville {
+	background-color: gainsboro;
+	margin: 20px;
+	margin-top: 0;
+	margin-left: 10px;
+	flex-grow:10;
+	display : flex;
+	text-align : center;
+}
+
+footer {
+	background-color: lightgrey;
+	margin: 20px;
+}
+header {
+	background-color: black;
+	color: white;
+	margin: 20px;
+	padding: 20px;
+	text-align : center;
+}
